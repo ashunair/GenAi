@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "AIzaSyAl3St7kl3bJVpsFSnDQ-DDf8QAHbOgwUo"
+
 ENDPOINT_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" + API_KEY
 
 def generate_text(prompt):
